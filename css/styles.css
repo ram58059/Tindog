@@ -1,0 +1,158 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+  font-weight: 900;
+}
+#title {
+  text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Black', sans-serif;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* SECTION */
+
+.coloured-section {
+    color: white;
+    background-color: #ff4c68;
+}
+.white-section {
+  color: white;
+}
+
+/* HEADING */
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.title-intro {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.navbar {
+  padding:0 0 4.5rem;
+}
+
+/* NAVIGATION BAR */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+/* DOWNLOAD BUTTON */
+
+.download-button {
+  font-weight: 800;
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGE */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* ID FEATURES */
+
+#features {
+  background-color: #fff;
+  padding: 3% 15%;
+  position: relative;
+}
+
+.features-icon {
+  color: #ef8172;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+  background: #ef8172;
+}
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* PRICING SECTION */
+
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CALL TO ACTION SECTION */
+
+#cta {
+  padding: 5% 15%;
+}
+
+
+/* FOOTER */
+
+#footer {
+  font-size: 1 rem;
+  padding: 3% 15% 0;
+}
+.footer-link {
+  font-size: 12px;
+  color: black;
+  padding: 5px 7px;
+}
+.footer-para {
+  font-size: 10px;
+  margin-bottom: 0;
+}
